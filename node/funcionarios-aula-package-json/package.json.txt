@@ -1,0 +1,20 @@
+Package.json descreve o projeto, como nome, versão, autor, licença, etc
+Além disso, um dos grandes objetivos é ter as descrição de todas as dependências do arquivo
+Separadas em dependências e dependências apenas de desenvolvimento
+
+Adicionar dependências com npm e yarn
+npm i (ou install) --save axios ou npm i axios
+yarn add axios
+
+Adicionar dependências de desenvolvimento
+npm i (ou install) --save-dev axios
+yarn add -D axios
+
+Sobre versões de dependências ("major.minor.fix")
+"axios": "^0.17.1" (^ significa que ele pode pegar versões mais novas somente na minor)
+"axios": "~0.17.1" (~ significa que ele pode pegar versões mais novas somente na fix)
+"axios: "0.17.1" (sem nenhum significa versão exata)
+
+Uma outra forma de definir uma versão exata
+npm i --save axios@0.17.1 -E (E significa Exact)
+yarn add -E axios@0.17.1

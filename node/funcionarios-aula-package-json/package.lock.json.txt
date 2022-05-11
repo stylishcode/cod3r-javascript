@@ -1,0 +1,9 @@
+Package.lock.json é um arquivo que com certeza deve ir para o repositório git, junto com
+o package.json claro. Ele descreve de uma forma mais precisa, exatamente as versões de dependência
+que foram baixadas. Se esse arquivo estiver presente, ele não permite que o package.json atualize
+as versões das dependências diretamente no arquivo package.json, isso permite que o código não seja
+quebrado ao ter vários desenvolvedores no mesmo projeto, porém com versões diferentes das libs
+
+Ele faz alguns hashs de integridade para garantir que a versão seja a mesma baixada, inclusive
+o caminho e versão exata que foi baixada para quando for feita reinstalação dos pacotes, venha
+exatamente a versão que foi baixada no projeto inicialmente

@@ -1,0 +1,23 @@
+{
+  "name": "funcionarios-aula-package-json",
+  "version": "1.0.0",
+  "description": "descrição do projeto",
+  "main": "outro.js",
+  "scripts": {
+    "test": "comando de teste"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repo"
+  },
+  "keywords": [
+    "tal",
+    "outro",
+    "tal"
+  ],
+  "author": "autor do projeto",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.17.1"
+  }
+}
